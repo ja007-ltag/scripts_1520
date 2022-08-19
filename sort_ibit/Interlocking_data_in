@@ -1,0 +1,191 @@
+
+    Company:                            "My Signal"
+    Document_title:                     "Interlock data"            
+    Document_number:                    "RUSIG0349D0002"            
+    Document_version:                   "ELCUR"                     
+    Document_status:                    "Current"                   
+    Prepared_by:                        "MyAuthor"
+    Date: "2022-07-14" 
+    Time: "11:21:04" 
+
+    Specification_document_number:      "3NSS006469D0212"           
+    Specification_document_version:     "1.0"                       
+
+    Administration_product_name:        "Tools2Config_RF"           
+    Administration_product_version:     "10.4"                      
+
+    Site_product_name:                  "ILS2_UG_TEST"
+    Site_product_number:                "RUSIG0349"                 
+
+
+
+    General data
+.   ============
+
+    Site name:                          TEST
+    Site identifier code:               TEST
+
+    Interlocking package:               "ILL2_UG_TEST"
+    Interlocking package version:       "ELCUR"                     
+
+    Interlock SW system:                "IPU2"                      
+    Interlock SW version:               "8.4"                       
+
+    Interlocking name:                  ILOCK1
+
+    Technical identity:                 1                           
+
+
+  Logical objects
+. ===============
+
+  External name: EBSHD27             Type: ENDBLOCK       
+. ========================================================
+
+  Leg:  Neighbour:          Neighbours leg:  
+. -------------------------------------------
+  0     SHD27               0                
+
+  Individualizations
+. ------------------
+     I_DIR=0   I_CC=50      I_IND=0      I_TC=0    I_CALLON=100
+  I_TC_LZF=0   
+
+  Order variable       Logical object       Status variable        
+. -----------------------------------------------------------------
+
+  Order variable       IPU object           
+. ------------------------------------------
+
+  Status variable      IPU object           
+. ------------------------------------------
+
+  Indication variable  COS object           
+. ------------------------------------------
+  S_CC                 EBSHD27              
+  S_LOCK               EBSHD27              
+  S_TC                 EBSHD27              
+  S_TC_LZF             EBSHD27              
+
+
+  External name: SHD27               Type: SHSIGNAL       
+. ========================================================
+
+  Leg:  Neighbour:          Neighbours leg:  
+. -------------------------------------------
+  0     EBSHD27             0                
+  1     PT39                1                
+
+  Individualizations
+. ------------------
+  I_APS=0      I_BBS=0      I_BLK=0      I_CALLON=0   I_CC=50      
+  I_DIR=60     I_IND=0      I_MU=0       I_RES_IND=0  I_RES_SIG=2  
+  I_TREL=60    I_VKL_CO=0   
+
+  Order table
+. ------------------------------------------
+  O_RES_SIG | R_VR_D27_B_OB | R_VR_D27_K_OK 
+. ------------------------------------------
+  1         | 1             | 1             
+  2         | 2             | 2             
+
+  Order variable       Logical object       Status variable        
+. -----------------------------------------------------------------
+
+  Order variable       IPU object           
+. ------------------------------------------
+  O_SIG_O              S_D27_O              
+  O_SIG_R              S_D27_R              
+
+  Status variable      IPU object           
+. ------------------------------------------
+  C_RES_SIG1           KS_VR_D27_B_OB       
+  C_RES_SIG2           KS_VR_D27_K_OK       
+  C_SIG_O              S_D27_O              
+  C_SIG_R              S_D27_R              
+
+  Indication variable  COS object           
+. ------------------------------------------
+  S_BLK                SHD27                
+  S_CC                 SHD27                
+  S_CO                 SHD27                
+  S_DARK               SHD27                
+  S_IND                SHD27                
+  S_IND2               SHD27                
+  S_REL                SHD27                
+  S_RES_IND            SHD27                
+  S_RES_IND_R          SHD27                
+  S_RES_SIG            SHD27                
+  S_RES_SIG_R          SHD27                
+  S_RSTART             SHD27                
+  S_SIG                SHD27                
+  S_SIGPR              SHD27                
+  S_S_TD               SHD27                
+
+
+  External name: PT39                Type: POINT          
+. ========================================================
+
+  Leg:  Neighbour:          Neighbours leg:  
+. -------------------------------------------
+  0     PT35                2                
+  1     SHD27               1                
+  2     SHD26               1                
+
+  Individualizations
+. ------------------
+  I_APS=0      I_AR=0       I_CC=50      I_CPL=0      I_CP_NUM=0   
+  I_F1=0       I_F2=0       I_FP0=0      I_FP1=0      I_FP2=0      
+  I_GAB=0      I_LOCK=0     I_MAK=0      I_PT_CDZ=0   I_PT_ODZ=0   
+  I_SAFE1=0    I_TC_F=0     I_TZM=0      I_UD=0       
+
+  Order table
+. -----------------------------------------------------------------------------------
+  O_RES | R_VR_39_L6_L7 | R_VR_39_L8_L9 | R_VR_39_L1_L2 | R_VR_39_L3 | R_VR_39_L4_L5 
+. -----------------------------------------------------------------------------------
+  1     | 1             | 1             | 1             | 1          | 1             
+  2     | 2             | 2             | 2             | 2          | 2             
+
+  Order variable       Logical object       Status variable        
+. -----------------------------------------------------------------
+  OFW_MAK              PT41                 CFW_MAK                
+
+  Order variable       IPU object           
+. ------------------------------------------
+  O_OMK                RR_NOMK              
+  O_OPK                RR_NOPK              
+  O_POS_O              PT_39_O              
+  O_POS_R              PT_39_R              
+
+  Status variable      IPU object           
+. ------------------------------------------
+  C_MK_O               KC_39MD              
+  C_MK_R               KC_39RMD             
+  C_PK_O               KC_39PD              
+  C_PK_R               KC_39RPD             
+  C_POS_O              PT_39_O              
+  C_POS_R              PT_39_R              
+  C_RES_PT1            KS_VR_39_L6_L7       
+  C_RES_PT2            KS_VR_39_L8_L9       
+  C_RES_PT3            KS_VR_39_L1_L2       
+  C_RES_PT4            KS_VR_39_L3          
+  C_RES_PT5            KS_VR_39_L4_L5       
+
+  Indication variable  COS object           
+. ------------------------------------------
+  SL_RK                PT39                 
+  SL_VZ                PT39                 
+  S_AR                 PT39                 
+  S_BLK                PT39                 
+  S_CC                 PT39                 
+  S_CLEAR_NUM          PT39                 
+  S_CLEAR_PB           PT39                 
+  S_MAK                PT39                 
+  S_POS                PT39                 
+  S_PT_UD              PT39                 
+  S_RES                PT39                 
+  S_RES_R              PT39                 
+  S_SW                 PT39                 
+  S_VZ                 PT39                 
+  S_VZR                PT39                 
+  S_ZVZ                PT39                 

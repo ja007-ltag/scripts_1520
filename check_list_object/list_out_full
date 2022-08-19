@@ -1,0 +1,141 @@
+Имя IPU объекта
+S_G1_O
+S_G1PR_O
+S_G1-R          - ERROR - BAD SYMBOLS
+S_G1pr-R        - ERROR - BAD SYMBOLS - lower case
+S_G1-MU-O       - ERROR - BAD SYMBOLS
+S_G1-MU-R       - ERROR - BAD SYMBOLS
+S_G2-O          - ERROR - BAD SYMBOLS
+S_G2pr-O        - ERROR - BAD SYMBOLS - lower case
+S_G2-R          - ERROR - BAD SYMBOLS
+S_G2pr-R        - ERROR - BAD SYMBOLS - lower case
+S_G2-MU-O       - ERROR - BAD SYMBOLS
+S_G2-MU-R       - ERROR - BAD SYMBOLS
+S_G3-O          - ERROR - BAD SYMBOLS
+S_G3pr-O        - ERROR - BAD SYMBOLS - lower case
+S_G3-R          - ERROR - BAD SYMBOLS
+S_G3pr-R        - ERROR - BAD SYMBOLS - lower case
+S_G3-MU-O       - ERROR - BAD SYMBOLS
+S_G3-MU-R       - ERROR - BAD SYMBOLS
+S_D1-O          - ERROR - BAD SYMBOLS
+S_D1-R          - ERROR - BAD SYMBOLS
+S_D2-O          - ERROR - BAD SYMBOLS
+S_D2-R          - ERROR - BAD SYMBOLS
+S_D3-O          - ERROR - BAD SYMBOLS
+S_D3-R          - ERROR - BAD SYMBOLS
+S_D4-O          - ERROR - BAD SYMBOLS
+S_D4-R          - ERROR - BAD SYMBOLS
+S_D5-O          - ERROR - BAD SYMBOLS
+S_D5-R          - ERROR - BAD SYMBOLS
+S_D6-O          - ERROR - BAD SYMBOLS
+Имя IPU объекта
+S_D6-R          - ERROR - BAD SYMBOLS
+S_D7-O          - ERROR - BAD SYMBOLS
+S_D7-R          - ERROR - BAD SYMBOLS
+S_D8-O          - ERROR - BAD SYMBOLS
+S_D8-R          - ERROR - BAD SYMBOLS
+S_D9-O          - ERROR - BAD SYMBOLS
+S_D9-R          - ERROR - BAD SYMBOLS
+S_D10-O         - ERROR - BAD SYMBOLS
+S_D10-R         - ERROR - BAD SYMBOLS
+S_D11-O         - ERROR - BAD SYMBOLS
+S_D11-R         - ERROR - BAD SYMBOLS
+S_D12-O         - ERROR - BAD SYMBOLS
+S_D12-R         - ERROR - BAD SYMBOLS
+S_D13-O         - ERROR - BAD SYMBOLS
+S_D13-R         - ERROR - BAD SYMBOLS
+S_D14-O         - ERROR - BAD SYMBOLS
+S_D14-R         - ERROR - BAD SYMBOLS
+S_D15-O         - ERROR - BAD SYMBOLS
+S_D15-R         - ERROR - BAD SYMBOLS
+S_D16-O         - ERROR - BAD SYMBOLS
+S_D16-R         - ERROR - BAD SYMBOLS
+S_D17-O         - ERROR - BAD SYMBOLS
+S_D17-R         - ERROR - BAD SYMBOLS
+S_D18-O         - ERROR - BAD SYMBOLS
+S_D18-R         - ERROR - BAD SYMBOLS
+S_D19-O         - ERROR - BAD SYMBOLS
+S_D19-R         - ERROR - BAD SYMBOLS
+S_D20-O         - ERROR - BAD SYMBOLS
+S_D20-R         - ERROR - BAD SYMBOLS
+S_D21-O         - ERROR - BAD SYMBOLS
+S_D21-R         - ERROR - BAD SYMBOLS
+Имя IPU объекта
+S_D22-O         - ERROR - BAD SYMBOLS
+S_D22-R         - ERROR - BAD SYMBOLS
+S_D23-O         - ERROR - BAD SYMBOLS
+S_D23-R         - ERROR - BAD SYMBOLS
+S_D24-O         - ERROR - BAD SYMBOLS
+S_D24-R         - ERROR - BAD SYMBOLS
+S_D25-O         - ERROR - BAD SYMBOLS
+S_D25-R         - ERROR - BAD SYMBOLS
+S_D26-O         - ERROR - BAD SYMBOLS
+S_D26-R         - ERROR - BAD SYMBOLS
+S_D27-O         - ERROR - BAD SYMBOLS
+S_D27-R         - ERROR - BAD SYMBOLS
+S_D28-O         - ERROR - BAD SYMBOLS
+S_D28-R         - ERROR - BAD SYMBOLS
+S_D29-O         - ERROR - BAD SYMBOLS
+S_D29-R         - ERROR - BAD SYMBOLS
+S_M1-O          - ERROR - BAD SYMBOLS
+S_M1pr-O        - ERROR - BAD SYMBOLS - lower case
+S_M1-R          - ERROR - BAD SYMBOLS
+S_M1pr-R        - ERROR - BAD SYMBOLS - lower case
+S_M1-MU-O       - ERROR - BAD SYMBOLS
+S_M1-MU-R       - ERROR - BAD SYMBOLS
+S_M2-O          - ERROR - BAD SYMBOLS
+S_M2pr-O        - ERROR - BAD SYMBOLS - lower case
+S_M2-R          - ERROR - BAD SYMBOLS
+S_M2pr-R        - ERROR - BAD SYMBOLS - lower case
+S_M3-O          - ERROR - BAD SYMBOLS
+S_M3pr-O        - ERROR - BAD SYMBOLS - lower case
+S_M3-R          - ERROR - BAD SYMBOLS
+S_M3pr-R        - ERROR - BAD SYMBOLS - lower case
+S_N1-O          - ERROR - BAD SYMBOLS
+Имя IPU объекта
+S_N1pr-O        - ERROR - BAD SYMBOLS - lower case
+S_N1-R          - ERROR - BAD SYMBOLS
+S_N1pr-R        - ERROR - BAD SYMBOLS - lower case
+S_N1-MU-O       - ERROR - BAD SYMBOLS
+S_N1-MU-R       - ERROR - BAD SYMBOLS
+S_N2-O          - ERROR - BAD SYMBOLS
+S_N2pr-O        - ERROR - BAD SYMBOLS - lower case
+S_N2-R          - ERROR - BAD SYMBOLS
+S_N2pr-R        - ERROR - BAD SYMBOLS - lower case
+S_N2-MU-O       - ERROR - BAD SYMBOLS
+S_N2-MU-R       - ERROR - BAD SYMBOLS
+S_N4-O          - ERROR - BAD SYMBOLS
+S_N4pr-O        - ERROR - BAD SYMBOLS - lower case
+S_N4-R          - ERROR - BAD SYMBOLS
+S_N4pr-R        - ERROR - BAD SYMBOLS - lower case
+S_N4-MU-O       - ERROR - BAD SYMBOLS
+S_N4-MU-R       - ERROR - BAD SYMBOLS
+S_P1-O          - ERROR - BAD SYMBOLS
+S_P1-R          - ERROR - BAD SYMBOLS
+S_P1-MU-1-O     - ERROR - BAD SYMBOLS
+S_P1-MU-1-R     - ERROR - BAD SYMBOLS
+S_P1-MU-2-O     - ERROR - BAD SYMBOLS
+S_P1-MU-2-R     - ERROR - BAD SYMBOLS
+S_P2-O          - ERROR - BAD SYMBOLS
+S_P2-R          - ERROR - BAD SYMBOLS
+S_P2-MU-1-O     - ERROR - BAD SYMBOLS
+S_P2-MU-1-R     - ERROR - BAD SYMBOLS
+S_P2-MU-2-O     - ERROR - BAD SYMBOLS
+S_P2-MU-2-R     - ERROR - BAD SYMBOLS
+S_P3-O          - ERROR - BAD SYMBOLS
+S_P3-R          - ERROR - BAD SYMBOLS
+Имя IPU объекта
+S_P3_MU_1_O
+S_P3_MU_1_R
+S_P3_MU_2_O
+S_P3_MU_2_R
+
+РУСС            - ERROR - find RUS
+ENGLISH
+LowerSIMBOLS    - ERROR - lower case
+ENG_NORM_OK
+ENG-ERR-SIMBOLS - ERROR - BAD SYMBOLS
+ПРИ_ВЕТ         - ERROR - find RUS
+ПРи-ВЕТ         - ERROR - find RUS - BAD SYMBOLS - lower case
+
+* - включается на втором пусковом этапе
