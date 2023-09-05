@@ -1,18 +1,13 @@
+"""
+Генерация имеется только для ОК ГКЛС-Е и ГКЕН-Е
+
+Для ОКД-Е-В не делалось, это проще руками добавить пару генераторов.
+"""
+
 list_ok = """
 
-ГКЕН-Е	2PGER				0X28A1
-ГКЕН-Е	B2APGER				0X28A9
-ГКЕН-Е	48ASGER				0X28AB
-ОКД-Е-В	STALEN_OKD_EV_RK15	0X28AD
-
-
-ГКЕН-Е	2NAPGER				0X28C1
-ГКЕН-Е	27ASGER				0X28C5
-
-ГКЕН-Е	2APGEP				0X28Е1
-ГКЕН-Е	17SGEP				0X28Е9
-
-ГКЕН-Е	20SGEP				0X2615
+ГКЕН-Е		5BSGER		3841
+ГКЕН-Е		7_11VSGER	3843
 
 """
 
@@ -27,6 +22,7 @@ list_gkls_e_int_data_for_line = []
 list_gkls_e_int_data_IPU_objects = []
 
 list_gken_e = []
+list_gken_e_elbrus = []
 list_gken_e_int_data = []
 list_gken_e_int_data_for_line = []
 list_gken_e_int_data_IPU_objects = []
@@ -36,6 +32,9 @@ list_gken_e_int_data_IPU_objects = []
 
 for cur_line in all_list:
     type_ok, name, address_ok = cur_line
+    # name = '3PGER'
+    # name2 = '3P_R'
+    name2 = name[:-3] + '_' + name[-1]
 
     if type_ok == 'ГКЛС-Е':
         text_ok = f'    Controller:         GEN_{name}\n' \
@@ -135,7 +134,6 @@ for cur_line in all_list:
         list_gkls_e_int_data_for_line.append(text_int_data_for_line)
         list_gkls_e_int_data_IPU_objects.append(text_int_data_IPU_objects)
 
-
     if type_ok == 'ГКЕН-Е':
         text_ok = f'    Controller:         GKEN_{name}\n' \
                   f'    Address:            {address_ok}\n' \
@@ -157,7 +155,47 @@ for cur_line in all_list:
                   f'{"." * 125}\n' \
                   f'\n'
 
-        text_int_data = f'  External name: {f"GKEN_{name}":20} Type: STALEN_GKEN   \n' \
+        def line_ok_el(s1, s2='', s3='', s4='2', s5='INVERT'):
+            s3 = f'({s3})' if s3 != '' else ''
+            s4 = f'Size: {s4}'
+            s5 = f'Coding: {s5}'
+            return f"  {s1:11} {s2:27} {s3:17} {s4:9} {s5}"
+
+        text_ok_el = list()
+
+        text_ok_el.append(f'  Controller:         GKEN_{name}')
+        text_ok_el.append(f'  Address:            0x{address_ok}')
+        text_ok_el.append(f'  Type:               "Controller_STALEN-1.4", 0x09')
+        text_ok_el.append(f'  Converter:          PCU_STALEN_1')
+        text_ok_el.append('')
+        text_ok_el.append('Orders')
+        text_ok_el.append(line_ok_el('SC1', f'R_SC1_GKEN_{name}', 'STALEN_SC', '4'))
+        text_ok_el.append(line_ok_el('SC2', f'R_SC2_GKEN_{name}', 'STALEN_SC', '4'))
+        text_ok_el.append(line_ok_el('L', f'R_L_GKEN_{name}', 'STALEN_L8', '8'))
+        text_ok_el.append(line_ok_el('SM', f'R_SM_GKEN_{name}', 'STALEN_SM', '2'))
+        text_ok_el.append(line_ok_el('CM', f'R_CM_GKEN_{name}', 'STALEN_CM', '2'))
+        text_ok_el.append(line_ok_el('GM', f'R_GM_GKEN_{name}', 'STALEN_GM', '2'))
+        text_ok_el.append(line_ok_el('IN', f'R_IN_GKEN_{name}', 'STALEN_IN', '2'))
+        text_ok_el.append('')
+        text_ok_el.append('Statuses')
+        text_ok_el.append(line_ok_el('SC1', f'R_SC1_GKEN_{name}', 'STALEN_SC', '4'))
+        text_ok_el.append(line_ok_el('SC2', f'R_SC2_GKEN_{name}', 'STALEN_SC', '4'))
+        text_ok_el.append(line_ok_el('L', f'R_L_GKEN_{name}', 'STALEN_L8', '8'))
+        text_ok_el.append(line_ok_el('SM', f'R_SM_GKEN_{name}', 'STALEN_SM', '2'))
+        text_ok_el.append(line_ok_el('CM', f'R_CM_GKEN_{name}', 'STALEN_CM', '2'))
+        text_ok_el.append(line_ok_el('GM', f'R_GM_GKEN_{name}', 'STALEN_GM', '2'))
+        text_ok_el.append(line_ok_el('IN', f'R_IN_GKEN_{name}', 'STALEN_IN', '2'))
+        text_ok_el.append(line_ok_el('STATE1', f'SPC_ST1_GKEN_{name}', 'STALEN_CHAN', '2'))
+        text_ok_el.append(line_ok_el('STATE2', f'SPC_ST2_GKEN_{name}', 'STALEN_CHAN', '2'))
+        text_ok_el.append(line_ok_el('NONE', f'', '', '2'))
+        text_ok_el.append(line_ok_el('RM', f'S_RM_GKEN_{name}', 'STALEN_RM', '2'))
+        text_ok_el.append('.' * 125)
+        text_ok_el.append('')
+        text_ok_el.append('')
+
+        text_ok_el = '\n'.join(text_ok_el)
+
+        text_int_data = f'  External name: {f"GKEN_{name2}":20} Type: STALEN_GKEN   \n' \
                         f'. ========================================================\n' \
                         f'\n' \
                         f'  Leg:   Neighbour:      Neighbours leg:\n' \
@@ -172,6 +210,9 @@ for cur_line in all_list:
                         f'\n' \
                         f'  Order variable         IPU object\n' \
                         f'. ---------------------------------\n' \
+                        f'  O_SC1                  {f"R_SC1_GKEN_{name}":19} \n' \
+                        f'  O_SC2                  {f"R_SC2_GKEN_{name}":19} \n' \
+                        f'  O_CM                   {f"R_CM_GKEN_{name}":19} \n' \
                         f'  O_L                    {f"R_L_GKEN_{name}":19} \n' \
                         f'  O_SM                   {f"R_SM_GKEN_{name}":19} \n' \
                         f'  O_GM                   {f"R_GM_GKEN_{name}":19} \n' \
@@ -192,16 +233,16 @@ for cur_line in all_list:
                         f'\n' \
                         f'  Indication variable    COS object\n' \
                         f'. ---------------------------------\n' \
-                        f'  S_SC1                  {f"GKEN_{name}":19} \n' \
-                        f'  S_SC2                  {f"GKEN_{name}":19} \n' \
-                        f'  S_L                    {f"GKEN_{name}":19} \n' \
-                        f'  S_SM                   {f"GKEN_{name}":19} \n' \
-                        f'  S_GM                   {f"GKEN_{name}":19} \n' \
-                        f'  S_IN                   {f"GKEN_{name}":19} \n' \
-                        f'  S_RM                   {f"GKEN_{name}":19} \n' \
-                        f'  S_STATE1               {f"GKEN_{name}":19} \n' \
-                        f'  S_STATE2               {f"GKEN_{name}":19} \n' \
-                        f'  S_CM                   {f"GKEN_{name}":19} \n' \
+                        f'  S_SC1                  {f"GKEN_{name2}":19} \n' \
+                        f'  S_SC2                  {f"GKEN_{name2}":19} \n' \
+                        f'  S_L                    {f"GKEN_{name2}":19} \n' \
+                        f'  S_SM                   {f"GKEN_{name2}":19} \n' \
+                        f'  S_GM                   {f"GKEN_{name2}":19} \n' \
+                        f'  S_IN                   {f"GKEN_{name2}":19} \n' \
+                        f'  S_RM                   {f"GKEN_{name2}":19} \n' \
+                        f'  S_STATE1               {f"GKEN_{name2}":19} \n' \
+                        f'  S_STATE2               {f"GKEN_{name2}":19} \n' \
+                        f'  S_CM                   {f"GKEN_{name2}":19} \n' \
                         f'\n' \
                         f'\n'
 
@@ -223,6 +264,7 @@ for cur_line in all_list:
                                     f'\n'
 
         list_gken_e.append(text_ok)
+        list_gken_e_elbrus.append(text_ok_el)
         list_gken_e_int_data.append(text_int_data)
         list_gken_e_int_data_for_line.append(text_int_data_for_line)
         list_gken_e_int_data_IPU_objects.append(text_int_data_IPU_objects)
@@ -244,10 +286,12 @@ with open('out_stalen_ID_gkls_IPU_objects.txt', 'w', encoding='utf8') as f:
     for text in list_gkls_e_int_data_IPU_objects:
         f.write(text)
 
-
-
 with open('out_stalen_OC_gken.txt', 'w', encoding='utf8') as f:
     for text in list_gken_e:
+        f.write(text)
+
+with open('out_stalen_OC_gken_elbrus.txt', 'w', encoding='utf8') as f:
+    for text in list_gken_e_elbrus:
         f.write(text)
 
 with open('out_stalen_ID_gken.txt', 'w', encoding='utf8') as f:
@@ -263,7 +307,6 @@ with open('out_stalen_ID_gken_IPU_objects.txt', 'w', encoding='utf8') as f:
     for text in list_gken_e_int_data_IPU_objects:
         f.write(text)
 
-
 # print(*list_gken_e_int_data_for_line, sep='')
 list_gkls_e_int_data_for_line.sort()
 list_gken_e_int_data_for_line.sort()
@@ -276,7 +319,7 @@ print(len(list_gken_e_int_data_for_line))
 print()
 
 list_GKLS_and_GKEN = []
-for text_gkls,text_gken in zip(list_gkls_e_int_data_for_line, list_gken_e_int_data_for_line):
+for text_gkls, text_gken in zip(list_gkls_e_int_data_for_line, list_gken_e_int_data_for_line):
     text_gkls = text_gkls.split('\n\n')
     text = f'{text_gkls[0]}\n{text_gken}{text_gkls[1]}\n' \
            f'{"-" * 80}' \
