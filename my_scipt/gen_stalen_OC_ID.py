@@ -5,13 +5,40 @@
 """
 
 list_ok = """
+ГКЕН-Е	25_29SGEP	26	31
+ГКЕН-Е	19_23SGEP	26	33
+ГКЕН-Е	1NAPGEP		26	35
+ГКЕН-Е	1PGEP		26	37
+ГКЕН-Е	32_36SGEP	26	39
+ГКЕН-Е	1APGEP		26	3B
 
-ГКЕН-Е		5BSGER		3841
-ГКЕН-Е		7_11VSGER	3843
 
+ГКЕН-Е	1CAPGEP		26	51
+ГКЕН-Е	8_12SGEP	26	53
+ГКЕН-Е	14_18SGEP	26	55
+
+ГКЕН-Е	25_29ASGER	26	71
+ГКЕН-Е	19_23ASGER	26	73
+ГКЕН-Е	1NAPSGER	26	75
+ГКЕН-Е	32_36ASGER	26	77
+ГКЕН-Е	A1APGER		26	79
+ГКЕН-Е	B1APGER		26	7B
+
+
+ГКЕН-Е	A1PGER		26	95
+ГКЕН-Е	B1CAPGER	26	97
+ГКЕН-Е	8_12ASGER	26	99
+ГКЕН-Е	14_18ASGER	26	9B
+
+ГКЕН-Е	A1CAPGER	28	В1
+ГКЕН-Е	B1PGER		28	В3
+ГКЕН-Е	B1NAPGER	28	В5
+ГКЛС-Е	A1CAPGKR	28	В7
+ГКЛС-Е	B1PGKR		28	В9
+ГКЛС-Е	B1NAPGKR	28	ВB
 """
 
-# ['ГКЛС-Е', '1_1GK_PIT', '0X2СА1']
+# ['ГКЛС-Е', '1_1GK_PIT', '2С', 'А1']
 all_list = [line.split() for line in list_ok.split('\n') if line != '']
 
 print(all_list)
@@ -31,7 +58,8 @@ list_gken_e_int_data_IPU_objects = []
 # list_okd_ev = []
 
 for cur_line in all_list:
-    type_ok, name, address_ok = cur_line
+    type_ok, name, A1, A2 = cur_line
+    address_ok = A1 + A2
     # name = '3PGER'
     # name2 = '3P_R'
     name2 = name[:-3] + '_' + name[-1]
@@ -318,19 +346,19 @@ print(len(list_gkls_e_int_data_for_line))
 print(len(list_gken_e_int_data_for_line))
 print()
 
-list_GKLS_and_GKEN = []
-for text_gkls, text_gken in zip(list_gkls_e_int_data_for_line, list_gken_e_int_data_for_line):
-    text_gkls = text_gkls.split('\n\n')
-    text = f'{text_gkls[0]}\n{text_gken}{text_gkls[1]}\n' \
-           f'{"-" * 80}' \
-           f'\n'
-    list_GKLS_and_GKEN.append(text)
-
-list_GKLS_and_GKEN.sort(
-    key=lambda x: (int(x.split()[1].split('_')[3])
-                   if (x.split()[1].split('_')[3]).isdigit()
-                   else int(x.split()[1].split('_')[3][:-2]))
-)
-with open('out_stalen_ID_for_line.txt', 'w', encoding='utf8') as f:
-    for text in list_GKLS_and_GKEN:
-        f.write(text)
+# list_GKLS_and_GKEN = []
+# for text_gkls, text_gken in zip(list_gkls_e_int_data_for_line, list_gken_e_int_data_for_line):
+#     text_gkls = text_gkls.split('\n\n')
+#     text = f'{text_gkls[0]}\n{text_gken}{text_gkls[1]}\n' \
+#            f'{"-" * 80}' \
+#            f'\n'
+#     list_GKLS_and_GKEN.append(text)
+#
+# list_GKLS_and_GKEN.sort(
+#     key=lambda x: (int(x.split()[1].split('_')[3])
+#                    if (x.split()[1].split('_')[3]).isdigit()
+#                    else int(x.split()[1].split('_')[3][:-2]))
+# )
+# with open('out_stalen_ID_for_line.txt', 'w', encoding='utf8') as f:
+#     for text in list_GKLS_and_GKEN:
+#         f.write(text)
