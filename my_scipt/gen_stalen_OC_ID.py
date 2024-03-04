@@ -43,19 +43,19 @@ all_list = [line.split() for line in list_ok.split('\n') if line != '']
 
 print(all_list)
 
-list_gkls_e = []
-list_gkls_e_int_data = []
-list_gkls_e_int_data_for_line = []
-list_gkls_e_int_data_IPU_objects = []
+gkls = []
+gkls_int_data = []
+gkls_int_data_for_line = []
+gkls_int_data_IPU_objects = []
 
-list_gken_e = []
-list_gken_e_elbrus = []
-list_gken_e_int_data = []
-list_gken_e_int_data_for_line = []
-list_gken_e_int_data_IPU_objects = []
+gken = []
+gken_elbrus = []
+gken_int_data = []
+gken_int_data_for_line = []
+gken_int_data_IPU_objects = []
 
-# list_okd_e = []
-# list_okd_ev = []
+# okd_e = []
+# okd_ev = []
 
 for cur_line in all_list:
     type_ok, name, A1, A2 = cur_line
@@ -157,10 +157,10 @@ for cur_line in all_list:
                                     f'  {f"GALSST_R_{name}":23} -   {"STALEN_CHAN":22} -           -         \n' \
                                     f'\n'
 
-        list_gkls_e.append(text_ok)
-        list_gkls_e_int_data.append(text_int_data)
-        list_gkls_e_int_data_for_line.append(text_int_data_for_line)
-        list_gkls_e_int_data_IPU_objects.append(text_int_data_IPU_objects)
+        gkls.append(text_ok)
+        gkls_int_data.append(text_int_data)
+        gkls_int_data_for_line.append(text_int_data_for_line)
+        gkls_int_data_IPU_objects.append(text_int_data_IPU_objects)
 
     if type_ok == 'ГКЕН-Е':
         text_ok = f'    Controller:         GKEN_{name}\n' \
@@ -291,74 +291,74 @@ for cur_line in all_list:
                                     f'  {f"SPC_ST2_GKEN_{name}":23} -   STALEN_CHAN           -           -         \n' \
                                     f'\n'
 
-        list_gken_e.append(text_ok)
-        list_gken_e_elbrus.append(text_ok_el)
-        list_gken_e_int_data.append(text_int_data)
-        list_gken_e_int_data_for_line.append(text_int_data_for_line)
-        list_gken_e_int_data_IPU_objects.append(text_int_data_IPU_objects)
+        gken.append(text_ok)
+        gken_elbrus.append(text_ok_el)
+        gken_int_data.append(text_int_data)
+        gken_int_data_for_line.append(text_int_data_for_line)
+        gken_int_data_IPU_objects.append(text_int_data_IPU_objects)
 
 with open('out_stalen_OC_gkls.txt', 'w', encoding='utf8') as f:
-    for text in list_gkls_e:
+    for text in gkls:
         f.write(text)
 
 with open('out_stalen_ID_gkls.txt', 'w', encoding='utf8') as f:
-    for text in list_gkls_e_int_data:
+    for text in gkls_int_data:
         f.write(text)
 
-# list_gkls_e_int_data_for_line.sort()
+# gkls_int_data_for_line.sort()
 # with open('out_stalen_ID_gkls_for_line.txt', 'w', encoding='utf8') as f:
-#     for text in list_gkls_e_int_data_for_line:
+#     for text in gkls_int_data_for_line:
 #         f.write(text)
 
 with open('out_stalen_ID_gkls_IPU_objects.txt', 'w', encoding='utf8') as f:
-    for text in list_gkls_e_int_data_IPU_objects:
+    for text in gkls_int_data_IPU_objects:
         f.write(text)
 
 with open('out_stalen_OC_gken.txt', 'w', encoding='utf8') as f:
-    for text in list_gken_e:
+    for text in gken:
         f.write(text)
 
 with open('out_stalen_OC_gken_elbrus.txt', 'w', encoding='utf8') as f:
-    for text in list_gken_e_elbrus:
+    for text in gken_elbrus:
         f.write(text)
 
 with open('out_stalen_ID_gken.txt', 'w', encoding='utf8') as f:
-    for text in list_gken_e_int_data:
+    for text in gken_int_data:
         f.write(text)
 
-# list_gken_e_int_data_for_line.sort()
+# gken_int_data_for_line.sort()
 # with open('out_stalen_ID_gken_for_line.txt', 'w', encoding='utf8') as f:
-#     for text in list_gken_e_int_data_for_line:
+#     for text in gken_int_data_for_line:
 #         f.write(text)
 
 with open('out_stalen_ID_gken_IPU_objects.txt', 'w', encoding='utf8') as f:
-    for text in list_gken_e_int_data_IPU_objects:
+    for text in gken_int_data_IPU_objects:
         f.write(text)
 
-# print(*list_gken_e_int_data_for_line, sep='')
-list_gkls_e_int_data_for_line.sort()
-list_gken_e_int_data_for_line.sort()
+# print(*gken_int_data_for_line, sep='')
+gkls_int_data_for_line.sort()
+gken_int_data_for_line.sort()
 
-print(list_gkls_e_int_data_for_line[:1])
-print(list_gken_e_int_data_for_line[:1])
+print(gkls_int_data_for_line[:1])
+print(gken_int_data_for_line[:1])
 
-print(len(list_gkls_e_int_data_for_line))
-print(len(list_gken_e_int_data_for_line))
+print(len(gkls_int_data_for_line))
+print(len(gken_int_data_for_line))
 print()
 
-# list_GKLS_and_GKEN = []
-# for text_gkls, text_gken in zip(list_gkls_e_int_data_for_line, list_gken_e_int_data_for_line):
+# GKLS_and_GKEN = []
+# for text_gkls, text_gken in zip(gkls_int_data_for_line, gken_int_data_for_line):
 #     text_gkls = text_gkls.split('\n\n')
 #     text = f'{text_gkls[0]}\n{text_gken}{text_gkls[1]}\n' \
 #            f'{"-" * 80}' \
 #            f'\n'
-#     list_GKLS_and_GKEN.append(text)
+#     GKLS_and_GKEN.append(text)
 #
-# list_GKLS_and_GKEN.sort(
+# GKLS_and_GKEN.sort(
 #     key=lambda x: (int(x.split()[1].split('_')[3])
 #                    if (x.split()[1].split('_')[3]).isdigit()
 #                    else int(x.split()[1].split('_')[3][:-2]))
 # )
 # with open('out_stalen_ID_for_line.txt', 'w', encoding='utf8') as f:
-#     for text in list_GKLS_and_GKEN:
+#     for text in GKLS_and_GKEN:
 #         f.write(text)
