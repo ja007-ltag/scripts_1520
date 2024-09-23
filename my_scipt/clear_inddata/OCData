@@ -1,0 +1,720 @@
+  Controller:		AXLE14_ALT
+  Address:		0X4671
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX347
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12	RA_2AP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_11	RA_69_71_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_M35P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_M37P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_61_81P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_69_83P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_83_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_81_85_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_89_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_M47P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_85_101P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_87_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST14_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12	RA_2AP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_12	AC_2AP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_11	RA_69_71_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_11	AC_69_71_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_M35P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_M35P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_M37P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_M37P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_61_81P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_61_81P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_69_83P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_69_83P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_83_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_83_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_81_85_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_81_85_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_89_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_89_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_M47P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_M47P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_85_101P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_85_101P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_87_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_87_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE22_ALT
+  Address:		0X5661
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX356
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_72P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_M53P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_129_133_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_74P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_73P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_135_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_71P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_137_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_149_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_151_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST22_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_72P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_72P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_M53P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_M53P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_129_133_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_129_133_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_74P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_74P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_73P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_73P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_135_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_135_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_71P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_71P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_137_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_137_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_149_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_149_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_151_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_151_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE23_ALT
+  Address:		0X5663
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX356
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10						Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_M143P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_M141P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_127_237_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_M137P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_103_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_143_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_121_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_101_119_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_95_123_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST23_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10						Size: 2	 Coding: INVERT
+  TC_10						Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_M143P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_M143P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_M141P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_M141P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_127_237_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_127_237_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_M137P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_M137P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_103_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_103_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_143_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_143_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_121_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_121_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_101_119_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_101_119_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_95_123_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_95_123_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE8_ALT
+  Address:		0X4651
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX345
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10						Size: 4	 Coding: INVERT
+  TCAXLE_9						Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_12_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_8_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_4_36SO_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_38_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_2_38P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_2_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_CAP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_CKP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST8_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10						Size: 2	 Coding: INVERT
+  TC_10						Size: 2	 Coding: INVERT
+  TCAXLE_9						Size: 2	 Coding: INVERT
+  TC_9						Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_12_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_12_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_8_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_8_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_4_36SO_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_4_36SO_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_38_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_38_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_2_38P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_2_38P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_2_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_2_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_CAP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_CAP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_CKP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_CKP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE9_ALT
+  Address:		0X4653
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX345
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11	RA_10P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_8P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_30_34_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_163_245P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_245_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_40_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_108P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_20_22_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_18_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_16_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_14_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST9_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11	RA_10P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_11	AC_10P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_8P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_8P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_30_34_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_30_34_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_163_245P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_163_245P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_245_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_245_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_40_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_40_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_108P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_108P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_20_22_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_20_22_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_18_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_18_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_16_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_16_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_14_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_14_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE10_ALT
+  Address:		0X4661
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX346
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_3P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_2P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_1P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_58_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_56_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_54_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_52_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_50_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_48_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_24_28_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST10_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_3P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_3P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_2P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_2P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_1P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_1P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_58_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_58_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_56_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_56_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_54_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_54_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_52_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_52_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_50_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_50_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_48_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_48_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_24_28_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_24_28_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE11_ALT
+  Address:		0X4663
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX346
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11	RA_231_235_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_17P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_16P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_15P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_14P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_13P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_12P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_11P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_6P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_5P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_4P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST11_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11	RA_231_235_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_11	AC_231_235_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_17P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_17P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_16P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_16P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_15P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_15P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_14P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_14P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_13P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_13P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_12P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_12P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_11P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_11P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_6P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_6P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_5P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_5P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_4P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_4P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE12_ALT
+  Address:		0X4665
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX346
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10						Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_169_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_167_191_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_201_205_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_145_155_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_165_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_183_187_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_207_209_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_M119P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_211_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST12_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10						Size: 2	 Coding: INVERT
+  TC_10						Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_169_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_169_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_167_191_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_167_191_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_201_205_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_201_205_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_145_155_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_145_155_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_165_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_165_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_183_187_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_183_187_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_207_209_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_207_209_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_M119P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_M119P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_211_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_211_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE13_ALT
+  Address:		0X4667
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX346
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_175_181_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_195_199_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_203_229_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_189_193_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_171_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_173_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_163_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_161_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_147_159_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_157_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST13_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_175_181_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_175_181_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_195_199_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_195_199_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_203_229_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_203_229_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_189_193_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_189_193_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_171_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_171_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_173_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_173_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_163_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_163_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_161_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_161_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_147_159_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_147_159_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_157_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_157_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE16_ALT
+  Address:		0X5621
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX352
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11						Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_329_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_98P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_2BP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_72AP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_71AP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_47_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_47_63P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_63_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_61_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_2VP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST16_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11						Size: 2	 Coding: INVERT
+  TC_11						Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_329_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_329_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_98P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_98P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_2BP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_2BP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_72AP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_72AP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_71AP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_71AP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_47_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_47_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_47_63P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_47_63P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_63_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_63_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_61_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_61_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_2VP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_2VP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE17_ALT
+  Address:		0X5623
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX352
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14	RA_286MCP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_13	RA_286MP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_12	RA_286MNP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_11	RA_NAP_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_1_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_3_5_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_153P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_152P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_151P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_13_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_21_27_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_23_25_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_41_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_99P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST17_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14	RA_286MCP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_14	AC_286MCP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_13	RA_286MP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_13	AC_286MP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_12	RA_286MNP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_12	AC_286MNP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_11	RA_NAP_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_11	AC_NAP_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_1_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_1_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_3_5_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_3_5_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_153P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_153P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_152P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_152P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_151P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_151P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_13_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_13_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_21_27_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_21_27_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_23_25_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_23_25_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_41_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_41_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_99P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_99P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
+  Controller:		AXLE19_ALT
+  Address:		0X6621
+  Type:		"OC2_AXLE-1.0", 0X01
+  Converter:		PCU_AX362
+
+Orders
+
+  NONE						Size: 4	
+  TCAXLE_15						Size: 4	 Coding: INVERT
+  TCAXLE_14						Size: 4	 Coding: INVERT
+  TCAXLE_13						Size: 4	 Coding: INVERT
+  TCAXLE_12						Size: 4	 Coding: INVERT
+  TCAXLE_11	RA_4_128P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_10	RA_2_112P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_9	RA_112_114_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_8	RA_112_130P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_7	RA_130_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_6	RA_126_130P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_5	RA_128_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_4	RA_126_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_3	RA_124_126P_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_2	RA_124_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+  TCAXLE_1	RA_122_ALT	(AXLE_RESET)	Size: 4	 Coding: INVERT
+
+Statuses
+
+  MULTINIT	AX_RST19_ALT	(AX_ALL_RESET)	Size: 4	 Coding: HAM84
+  TCAXLE_15						Size: 2	 Coding: INVERT
+  TC_15						Size: 2	 Coding: INVERT
+  TCAXLE_14						Size: 2	 Coding: INVERT
+  TC_14						Size: 2	 Coding: INVERT
+  TCAXLE_13						Size: 2	 Coding: INVERT
+  TC_13						Size: 2	 Coding: INVERT
+  TCAXLE_12						Size: 2	 Coding: INVERT
+  TC_12						Size: 2	 Coding: INVERT
+  TCAXLE_11	RA_4_128P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_11	AC_4_128P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_10	RA_2_112P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_10	AC_2_112P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_9	RA_112_114_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_9	AC_112_114_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_8	RA_112_130P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_8	AC_112_130P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_7	RA_130_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_7	AC_130_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_6	RA_126_130P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_6	AC_126_130P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_5	RA_128_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_5	AC_128_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_4	RA_126_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_4	AC_126_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_3	RA_124_126P_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_3	AC_124_126P_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_2	RA_124_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_2	AC_124_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+  TCAXLE_1	RA_122_ALT	(AXLE_RESET)	Size: 2	 Coding: INVERT
+  TC_1	AC_122_ALT	(AXLE_SECTION)	Size: 2	 Coding: INVERT
+
+....................................................
+
